@@ -1,0 +1,22 @@
+$(function() 
+{
+	if(window.PIE)
+	{
+		$('#HomeDesc').each(function() 
+		{
+			PIE.attach(this);
+		});
+		$('.ElemCons').each(function() 
+		{
+			PIE.attach(this);
+		});
+		$('.ElemTitle').each(function() 
+		{
+			PIE.attach(this);
+		});
+		$('#ComicSectionButtons').each(function() 
+		{
+			PIE.attach(this);
+		});
+	}
+});

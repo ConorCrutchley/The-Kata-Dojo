@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>Today's Readings</title>
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script>
+			var Planner;
+			$.getJSON("Planner.json", function(PlannerJson)
+			{
+				Planner = PlannerJson;
+			});
+			$( function() { $( "#datepicker" ).datepicker({ dateFormat: "dd/mm/yy", onSelect : dateSelected, showOn: "both", buttonImage: "Calendar.png" }); } );
+			function dateSelected(dateStr, obj)
+			{
+				var dateDay = dateStr.substring(0,2);
+				var dateMonth = dateStr.substring(3,5);
+				
+				var PlannerArr = Planner[dateMonth][dateDay];
+				var newReadingList = document.getElementById('newReadingList');
+				newReadingList.innerHTML = '';
+				
+				var li1 = document.createElement('li');
+				li1.innerText = PlannerArr[0];
+				newReadingList.appendChild(li1);
+				
+				var li2 = document.createElement('li');
+				li2.innerText = PlannerArr[1];
+				newReadingList.appendChild(li2);
+				
+				var li3 = document.createElement('li');
+				li3.innerText = PlannerArr[2];
+				newReadingList.appendChild(li3);
+			}
+		</script>
+		<style>
+			#datepicker
+			{
+				height:24px;
+			}
+			button 
+			{
+				padding:0px;
+				position:relative;
+				top:6px;
+			}
+		</style>
+	</head>
+	<body>
+		<h3>Find Another Day's Readings</h3>
+		<input type="text" id="datepicker" />
+		<ul id="newReadingList"></ul>
+	</body>
+</html>

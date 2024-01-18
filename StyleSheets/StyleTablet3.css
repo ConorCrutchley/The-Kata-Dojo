@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.Elems
+{
+	height:270px;
+}
+.ElemCons
+{
+	height:150px;
+}
+#PageContent
+{
+	font-size:18px;
+	line-height:22px;
+}
+#ComicImgButtons
+{
+	width:400px;
+	margin:0px auto;
+	padding:0;
+	text-align:center;
+	display:none;
+}
+#ComicImgBtnRefresh
+{
+	width:150px;
+	margin:20px auto 0px auto;
+	padding:0;
+}
+#ComicImgBtnKata
+{
+	width:180px;
+	margin-left:0px;
+	padding:0;
+	float:left;
+	text-align:center;
+}
+#ComicImgBtnApplication
+{
+	width:180px;
+	margin-right:0px;
+	padding:0;
+	float:right;
+	text-align:center;
+}

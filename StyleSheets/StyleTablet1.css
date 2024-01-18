@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+#Navigation
+{
+	height:40px;
+}
+#NavigationList
+{
+	width:107.5%;
+	margin:0;
+	padding:0;
+}
+.NavigationListItem
+{
+	font-size:12px;
+}
+#PageHeader
+{
+	position:relative;
+	top:44px;
+}
+#PageHeader h2
+{
+	font-family: 'Rock Salt', cursive;
+	font-weight:bold;
+	font-size:18px;
+	line-height:20px;
+}
+
+
+.Elems
+{
+	height:270px;
+}
+.ElemText
+{
+	width:45%;
+}
+.ElemCons
+{
+	height:200px;
+}
+#PageContent
+{
+	font-size:14px;
+	line-height:22px;
+}
+#ComicSectionBtnImg
+{
+	width:135px;
+	height:202.5px;
+}
+#ComicSectionButtons
+{
+	height:300px;
+}
+
+#VideoSectionBtnImg
+{
+	width:135px;
+	height:90px;
+}
+#VideoSectionButtons
+{
+	height:160px;
+}
+
+#ComicImgButtons
+{
+	width:200px;
+	margin:0px auto;
+	padding:0;
+	text-align:center;
+	display:none;
+}
+#ComicImgBtnRefresh
+{
+	width:150px;
+	margin:20px auto 0px auto;
+	padding:0;
+}
+#ComicImgBtnKata
+{
+	width:180px;
+	margin-left:-80px;
+	padding:0;
+	float:left;
+	text-align:center;
+}
+#ComicImgBtnApplication
+{
+	width:180px;
+	margin-right:-80px;
+	padding:0;
+	float:right;
+	text-align:center;
+}
