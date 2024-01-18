@@ -2,6 +2,8 @@
 
 This is the website I produced for my final year project at Staffordshire University. The aim of the site was to provide a fun way of learning katas which showcased my skills in graphics and animation. This was achieved through creating comic books where a fight would take place and show the application of the moves in the kata, and through animations which showed the kata from different angles as well as animations showing their application.
 
+## What is a kata?
+
 If you're unfamiliar with karate, katas are a set of moves that portay a fight. At some point, every student is required to learn kata and are even required to demonstrate them for competition. Depending on your level, displaying a kata can be one of the requirements to proceed to the next belt.
 
 ## The problem
