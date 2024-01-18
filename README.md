@@ -8,4 +8,11 @@ The problem with kata at the time of creating this site (in 2014/2015) was that 
 
 My solution was to provide animations where the kata could be seen from different angles. This meant that students could see moves that previously hidden in other kata videos. I'd also provide animations where the application of the kata was portrayed (i.e. so the student could see how the moves would work in a fight). Finally, I'd also provide comic books where the user can not only learn the kata in bite size pieces, but there was also a story to it that could easily be followed and would make it entertaining for the student to read through and learn.
 
-This site is where the user could access all of the comics and animations in one place.
+This site is where the user could access all of the comics and animations in one place, showcasing my skills in:
+
+- Web Design
+- HTML, CSS and JavaScript
+- 3D modelling using Autodesk 3DS Max
+- 3D animation using Autodesk 3DS Max
+- Graphic design/editing using Adobe Photoshop
+- Video editing using Adobe Premiere
